@@ -1,0 +1,17 @@
+# .gitignore for LaTeX project
+# Ignore BibTeX/LaTeX generated bibliography and compressed files as requested
+*.bbl
+*.gz
+*.pdf
+
+# Ignore VS Code workspace folder
+.vscode/
+
+# (optional) common LaTeX auxiliary files you may also want to ignore
+# *.aux
+# *.log
+# *.toc
+# *.out
+# *.synctex.gz
+# *.fls
+# *.fdb_latexmk

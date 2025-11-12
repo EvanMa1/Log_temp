@@ -1,0 +1,25 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[UTF8]{ctex}
+
+% 使用同目录下的样式文件
+\usepackage{researchlog}
+% \usepackage[colorlink = true]{hyperref}
+% 请在下方替换为你的项目标题、作者信息
+\title{PROJECT TITLE}
+\author{AUTHOR NAME}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+\part*{2025年}
+\addcontentsline{toc}{part}{2025年}
+\input{2025/main2025.tex}
+
+% 说明：把月份文件放在 YEAR/Month/ 下，按示例组织内容
+
+\end{document}
